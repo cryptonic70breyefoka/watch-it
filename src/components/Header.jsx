@@ -14,7 +14,7 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-4">
         <ThemeSwitch/>
-        <Link href = {'/'}className='flex gap-1 items-center'>
+        <Link href = {'/'} className='flex gap-1 items-center'>
             <span className='text-2xl font-bold bg-blue-600 py-1 px-2 rounded-lg'>Watch</span>
             <span className='text-xl font-bold hidden sm:inline'>It</span>
         </Link>
