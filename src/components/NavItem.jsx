@@ -3,8 +3,8 @@ import React from 'react'
 import Link  from 'next/link';
 import {useSearchParams} from 'next/navigation'
 export default function NavItem({title, param}) {
-    const searchparams = useSearchParams()
-    const genre = searchparams.get('genre')
+    const searchParams = useSearchParams()
+    const genre = searchParams.get('genre')
   return (
     <div>
         <Link 
