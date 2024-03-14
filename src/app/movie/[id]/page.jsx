@@ -4,7 +4,6 @@ export default async function MoviePage({params}) {
     const url  = `https://api.tmdb.org/3/movie/${movieId}?api_key=${process.env.API_KEY}`
     const response = await fetch(url);
     const movie = await response.json();
-    console.log(movie)
   return (
     <div className = 'w-full'>
         <div className = "p-4 md:pt-8 
