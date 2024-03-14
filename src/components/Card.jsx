@@ -21,7 +21,6 @@ export default function Card({result}) {
                 <FiThumbsUp className = 'h-5 mr-1 ml-3'/>
                 {result.vote_count}
               </p>
-              <p className = 'flex items-center'>{result.origin_country}</p>
             </div>
         </Link>
     </div>
